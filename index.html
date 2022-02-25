@@ -1,13 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
-    <title></title>
+    <title>Demonstration of Units</title>
 </head>
-<body>
-    
 
+<body>
+    <h1>Demonstration of Units</h1>
+    <hr>
+    <h2>In the following sections we will demonstrate what we have learned:</h2>
+    <hr>
+
+    <p>
+    <div>
+        <H3>IFrames</H3>
+
+        <h4>Here we have an iframe</h4>
+        <p>
+            An iframe allows us to embed HTML documents inside HTML documents!
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <hr>
+
+    <p>
+    <div>
+        <H3>Forms/List/Inputs:</H3>
+
+        <h4>'Chitople' Order menu:</h4>
+        <p>
+            Here we have an form expecting user input that is utilising lists to input a lot of data! 
+        </p>
+        <div style="border: solid 2px black; padding: .5rem;">
+            <form>
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <p>
+                        <label>
+                            Customer Name: 
+                            <input name="name" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Telephone: 
+                            <input type="tel" name="tel" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Email Address: 
+                            <input type="email" name="email" />
+                        </label>
+                    </p>
+                </fieldset>
+                <br />
+        <fieldset>
+            <legend>Size</legend>
+            <p>
+                <input type="radio" name="size"
+                    id="size0" value="size0" />
+                <label for="size0">Humongous</label>
+            </p>
+            <p>
+                <input type="radio" name="size" 
+                    id="size1" value="size1" />
+                <label for="size1">Double-Humongous</label>
+            </p>
+            <p>
+                <input type="radio" name="size"
+                    id="size2" value="size2" />
+                <label for="size2">Triple-Humongous</label>
+            </p>
+            <p>
+                <input type="radio" name="size"
+                    id="size3" value="size3" />
+                <label for="size3">Just A Small, Please</label>
+            </p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Fixins</legend>
+            <p>
+                <input type="checkbox" name="fixins"
+                    id="onions" value="onions" />
+                <label for="onions">Sauteed Onions</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fixins"
+                    id="guacamole" value="guacamole" />
+                <label for="guacamole">Guacamole</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fixins"
+                    id="queso" value="queso" />
+                <label for="queso">Queso</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fixins"
+                    id="lettuce" value="lettuce" />
+                <label for="lettuce">Lettuce</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fixins"
+                    id="beans" value="beans" />
+                <label for="beans">Refried Beans</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fixins"
+                    id="rice" value="rice" />
+                <label for="rice">Rice</label>
+            </p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Delivery Instructions</legend>
+            <p>
+                <label for="time">Preferred Delivery Time:</label>
+                <input id="time" name="time" type="time"
+                    min="11:00" max="21:00">
+            </p>
+            <p>
+                <label for="instructions">Delivery Instructions:</label>
+                <textarea id="instructions" name="instructions" rows="2"></textarea>
+            </p>
+            <p>
+                <button type="submit">Submit Order</button>
+            </p>
+        </fieldset>
+            </form>
+    </div>
+    <hr>
+
+
+    <p>
+    <div>
+        <H4>IFrames</H4>
+
+        <h3>Here we have the Nav.</h3>
+        <p>
+            Navs are used to help the user navigate through all relevant pages.
+        </p>
+        <nav>
+            <h1>Vertical Navigation Bar</h1>
+            <ul>
+                <li>
+                    <a href="https://www.google.com/" target="blank">Google Home Page</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/" target="blank">(another) Google Home Page</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <footer style="background-color: grey;">
+        <p>Copyright © XLI Ye Olde Company</p>
+        <p>
+            <a href="#about">About Us</a> -
+            <a href="#policy">Policy</a> -
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
 </body>
+
 </html>
